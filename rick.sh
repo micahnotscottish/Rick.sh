@@ -4,7 +4,6 @@
 # This script after being run once, will run every single time a user tries to use the command line
 # Before the user entered command is run, it modifies the .bashrc file to call this script.
 # This script makes a new directory, renames itself and the related files, and migrates itself there.
-# This renaming of files and directories makes this script undeletable, unreadable, and unsearchable.
 # The command in .bashrc to call this script cannot be overwritten by the user, because this script will overwrite the changes anyway.
 # Get rickrolled in ASCII scrub
 
